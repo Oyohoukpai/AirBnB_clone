@@ -8,9 +8,9 @@ from models.base_model import BaseModel
 
 
 class TestBaseModelDocs(unittest.TestCase):
-    """ check for documentation """
+    """ check for documentations.. """
     def test_class_doc(self):
-        """ check for class documentation """
+        """ check for class documentations.. """
         self.assertTrue(len(BaseModel.__doc__) > 0)
 
     def test_method_docs(self):
@@ -58,5 +58,5 @@ class TestBaseModel(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        """ remove test instances """
+        """ remove test instance.. """
         pass
