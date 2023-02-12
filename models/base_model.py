@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 ''' module for BaseModel class '''
+
 from datetime import datetime
 import uuid
-import models
+from models import storage
 
 
 class BaseModel:
+
     ''' BaseModel class '''
+
     def __init__(self, *args, **kwargs):
         '''
         initation of basemodel
