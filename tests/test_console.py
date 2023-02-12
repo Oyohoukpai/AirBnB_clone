@@ -23,7 +23,7 @@ class TestHBNBCommandDocs(unittest.TestCase):
 
 
 class TestHBNBCommandPep8(unittest.TestCase):
-    """ check for pep8 validation """
+    """ check for pep8 validation.. """
     def test_pep8(self):
         """ test base and test_base for pep8 conformance """
         style = pep8.StyleGuide(quiet=True)
@@ -31,7 +31,7 @@ class TestHBNBCommandPep8(unittest.TestCase):
         file2 = 'tests/test_console.py'
         result = style.check_files([file1, file2])
         self.assertEqual(result.total_errors, 0,
-                         "Found code style errors (and warning).")
+                         "Found code style errors (and warning)..")
 
 
 class TestHBNBCommand(unittest.TestCase):

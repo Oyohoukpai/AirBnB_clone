@@ -9,7 +9,7 @@ class Review(BaseModel):
     Public Class Attributes:
        (string) place_id: initalized as empty string
        (string) user_id: initalized as empty string
-       (string) text: initalized as empty string
+       (string) text: initalized as a empty string
     """
     place_id = ""
     user_id = ""

@@ -48,11 +48,11 @@ class TestAmenity(unittest.TestCase):
         self.assertTrue(hasattr(self.amenity, "updated_at"))
 
     def test_id(self):
-        """ test id """
+        """ test id.. """
         self.assertEqual(str, type(self.amenity.id))
 
     def test_created_at(self):
-        """ test created_at """
+        """ test created_at. """
         self.assertEqual(datetime, type(self.amenity.created_at))
 
     def test_updated_at(self):
@@ -60,7 +60,7 @@ class TestAmenity(unittest.TestCase):
         self.assertEqual(datetime, type(self.amenity.updated_at))
 
     def test_name(self):
-        """ test name """
+        """ test name.. """
         self.assertTrue(hasattr(self.amenity, "name"))
         self.assertEqual(self.amenity.name, "")
 
@@ -72,5 +72,5 @@ class TestAmenity(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        """ remove test instances """
+        """ remove test instance.. """
         pass

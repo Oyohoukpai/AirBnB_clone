@@ -14,7 +14,7 @@ from models.amenity import Amenity
 from models.review import Review
 
 class HBNBCommand(cmd.Cmd):
-    ''' HBNB class contains entry point '''
+    ''' HBNB class contains entry points '''
 
     prompt = '(hbnb) '
     myclasses = ["BaseModel", "User", "Place", "State", "Amenity", "Review",
@@ -37,7 +37,7 @@ class HBNBCommand(cmd.Cmd):
         return True
 
     def emptyline(self):
-        ''' do nothing with empty line '''
+        ''' do nothing with empty lines '''
         pass
 
     def do_create(self, classname):

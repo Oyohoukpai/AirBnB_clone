@@ -15,7 +15,7 @@ from models.engine.file_storage import FileStorage
 
 
 class TestStateDocs(unittest.TestCase):
-    """ check for documentation """
+    """ check for documentation. """
     def test_class_doc(self):
         """ check for class documentation """
         self.assertTrue(len(State.__doc__) > 0)
