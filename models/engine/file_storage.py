@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' FileStorage module '''
+''' FileStorage module ... '''
 import json
 from models.base_model import BaseModel
 import models
